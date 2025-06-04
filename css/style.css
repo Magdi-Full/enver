@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Open Sans;
   text-decoration: none;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 
 body {
