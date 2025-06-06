@@ -213,37 +213,48 @@ button {
 
 /*footer*/
 #footer {
-  background: #1e1e2080;
-  .footer-icon {
-    padding: 100px;
+  .footer {
     display: flex;
-    justify-content: center;
-  }
-  .footer-text {
-    margin-top: 187px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    button {
+    flex-direction: column;
+    background: #1e1e2080;
+    .footer-icon {
+      padding: 100px;
       display: flex;
-      justify-content: end;
+      justify-content: center;
     }
-    h2 {
+    .footer-icon2 {
       display: flex;
-      text-align: left;
+      justify-content: center;
+      align-items: center;
+      display: none;
     }
-  }
-  .contact {
-    margin: 155px 0px 155px 0px;
-    padding: auto;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    nav {
+    .footer-text {
+      margin-top: 187px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        display: flex;
+        justify-content: end;
+      }
+      h2 {
+        display: flex;
+        text-align: left;
+      }
+    }
+    .contact {
+      margin-bottom: 50px;
+      margin-top: 300px;
+      padding: auto;
       display: flex;
       align-items: center;
-      gap: 35px;
+      text-align: center;
+      justify-content: space-around;
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+      }
     }
   }
 }
